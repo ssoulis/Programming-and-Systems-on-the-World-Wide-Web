@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body::-webkit-scrollbar {
+	width: 16px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: white;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: #083b66;    /* color of the scroll thumb */
+	border-radius: 20px;       /* roundness of the scroll thumb */
+	border: 3px solid	#DCE0D9;  /* creates padding around scroll thumb */
+  }
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', italic;
+}
+
+
+label{
+	width: 9.3rem;
+	display: inline-block;
+    text-align: center;
+	
+}
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgb(255, 255, 255));
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	
+}
+.header1{
+	
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(black);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: #083b66;
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-self: center;
+	color: #083b66;
+}
+nav a{
+	font-size: 1.9rem;
+    text-decoration: none;
+    
+    font-family: 'Poppins', bold;
+   
+	color: brown;
+}
+
+nav img{
+	position: relative;
+	width: 120px;
+	right: 50px;
+
+}
+.shortcut_icon{
+	flex: 1;
+	text-align: center;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0.5rem 0.75rem;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #083b66;
+	text-decoration: none;
+	font-size: 0.8rem;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 0.125rem;
+	background: #083b66;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(0, 208, 255);
+	border:	1px solid black;
+	padding: 0.75rem 2.2rem;
+	font-size: 0.8rem;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover{
+	border: 0.063rem solid white;
+	background: #083b66;
+	transition: 1s;
+}
+
+nav .fa{
+	display: none;
+}
+
+
+.err p{
+    color: red;
+}
+
+
+.settings1{
+	width: 33.33%;
+ float:right;
+	padding-top: 150px;
+}
+.settings2{
+	width: 33.33%;
+	float:left;
+	padding-top: 150px;
+}
+.settings3{
+	width: 33.33%;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+.row1{
+ 	margin-top: 5%;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+.row1{
+	color: #083b66;
+	margin-top: 5%;
+ 	display: flex;
+ 	justify-content: space-between;
+}
+  .content-table1 thead tr {
+	background-color:#083b66;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+  }
+  
+  .content-table1 th,
+  .content-table1 td {
+	padding: 0.75rem 0.9rem;
+  }
+  
+  .content-table1 tbody tr {
+	border-bottom: 0.063rem solid #083b66;
+  }
+  
+  .content-table1 tbody tr:nth-of-type(even) {
+	background-color: #083b66;
+  }
+  
+  .content-table1 tbody tr:last-of-type {
+	border-bottom: 0.125rem solid #083b66;
+  }
+  
+  .content-table1 tbody tr.active-row {
+	font-weight: bold;
+	color: #083b66;
+    
+  }
+
+#delete{
+background-color: red;
+
+}
+
+
+
+.btn .btn-warning{
+	color: #083b66;
+}
+
+.close{
+	text-align: left;
+}
