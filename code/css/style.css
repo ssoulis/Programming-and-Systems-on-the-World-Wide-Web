@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header img{
+
+position: relative;	
+height: 100px;
+left: 100px;
+
+
+
+}
+
+
+
+
+
+body {
+    font-family: 'Poppins', italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	opacity: 0.90;
+	
+
+    
+    
+}
+
+.wrapper {
+	position: relative;
+    background: white;
+    padding: 30px 15px;
+    width: 370px;
+	right: 15px;
+
+    
+}
+
+.wrapper .title {
+    border-left: 5px solid  #083b66;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.input-field {
+    position: relative;
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.input-field .input-label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.input-field .input {
+    font-family: 'Poppins', bold;
+    border: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.3s all ease;
+}
+
+.input-field .input:focus {
+    border-color:  #083b66;
+}
+
+.btn {
+    font-family: 'Poppins', italic;
+    background:  #083b66;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.3s all ease;
+}
+
+.btn:hover, .btn:focus {
+    background: transparent;
+    border-color:  #083b66;
+    color:  #083b66;
+}
+
+
+.wrapper .form p {
+    margin: 5px 0;
+    text-align: center;
+    
+}
+
+.wrapper .form p a {
+    text-decoration: none;
+    color: brown;
+    transition: 0.3s all ease;
+}
+
+@media (max-width: 767.98px){
+    .wrapper{
+    
+        width: 80%;
+    }
+    .input-field,.btn,.wrapper .title,.wrapper .form p{
+        position: relative;
+        width: 80%;
+        left: 10px;
+    }
+}
+
+@media (max-width: 767.98px){
+    .header img
+    {
+        position: relative;	
+        height: 100px;
+        left: 80px;
+        
+
+
+    }
+
+
+
+}
+
+
+
+.err p{
+    color: brown;
+}
+
