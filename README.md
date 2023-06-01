@@ -23,7 +23,7 @@ Development of an abundance data system concerning the visitation of points of i
 
 VERSION or DATE: SPRING 2022
 
-The project report and the comments were originally written in Greek and were translated by me so there may be some mistakes in the traslated version (grammar) :)
+The project report and the comments were originally written in Greek and were translated by me.
 
 USER INSTRUCTIONS:
 
